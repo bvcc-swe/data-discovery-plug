@@ -54,6 +54,10 @@ Now interact with the component. Test everything!
 
 
 ### Step 3: Console Investigation (3 minutes)
+Open Chrome DevTools (F12) and check the Console tab.
+- What error messages do you see?
+- What line numbers are mentioned?
+- What does the error message tell you?
 
 **Console findings:**
 Find and document all 5 bugs in the BrokenDemo component at `pages/broken-demo` (Visual, Runtime, Logic, Edge Case, and UI/UX)

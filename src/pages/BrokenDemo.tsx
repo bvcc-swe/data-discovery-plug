@@ -7,7 +7,7 @@ export default function BrokenDemo() {
   const [showChart, setShowChart] = useState(false);
   const [useEmptyData, setUseEmptyData] = useState(false);
   
-  let chartData;
+  let chartData = [];
   
   const handleShowChart = () => {
     if (useEmptyData) {
@@ -54,7 +54,7 @@ export default function BrokenDemo() {
                 setUseEmptyData(!useEmptyData);
                 console.log('Toggled useEmptyData. New value:', !useEmptyData);
                 if (!useEmptyData) {
-                  console.error('Error: Switched to empty data. Chart will be blank.');
+                  console.error('Error: Switched to empty data with no chart data. Chart will be blank.');
                 }
               }}
             >

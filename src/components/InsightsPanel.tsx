@@ -90,7 +90,7 @@ const InsightsPanel = ({
 
 	const handleGenerateInsight = () => {
 		setIsLoading(true);
-		fetch("http://localhost:4000/insight", {
+		fetch("/api/server/insight", {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify({
